@@ -63,8 +63,8 @@ class Marker {
   }
 }
 let markerCrimson = new Marker("#DC143C");
-// markerCrimson.print("Olya Olya Olya");
-// markerCrimson.print("Olya Olya Olya");
+markerCrimson.print("Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, in! </br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, in! </br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, in!");
+
 
 class RefillableMarker extends Marker {
   fill() {
@@ -73,11 +73,11 @@ class RefillableMarker extends Marker {
 }
 
 let markerCadetBlue = new RefillableMarker("#5F9EA0");
-// markerCadetBlue.print(
-//   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, in!"
-// );
+markerCadetBlue.print(
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, in!"
+);
 
-// console.log(markerCadetBlue.ink);
+console.log(markerCadetBlue.ink);
 markerCadetBlue.fill();
 // console.log(markerCadetBlue.ink);
 
